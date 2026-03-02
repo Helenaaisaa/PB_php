@@ -19,6 +19,8 @@
                 <td><?= $u['email']?></td>
                 <td>
                     <a href="/PB_php/MVCexemplo/usuario/telaEditar?id=<?= $id ?>">Editar</a>
+
+                    <a href="/PB_php/MVCexemplo/usuario/excluir?id=<?= $id ?>">Excluir</a>
                 </td>
             </tr>
         <?php endforeach; ?>

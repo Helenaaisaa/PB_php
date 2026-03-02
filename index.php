@@ -26,8 +26,12 @@ switch ($route){
         $usuarioController->atualizar();
         break;
 
+    case "usuario/excluir":
+        $usuarioController->excluir();
+        break;
+
 
     default:
-        echo"Página não encontrada";
+        echo "Página não encontrada";
         break;
 }
